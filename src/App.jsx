@@ -9,11 +9,11 @@ function App() {
     label: (
       <div className="flex items-center space-x-4">
         <img
-          src="https://flagcdn.com/us.svg"
+          src="https://restcountries.com/v3.1/all/flags/us.png"
           alt="United States"
           className="w-12 h-8"
         />
-        <span className="text-2xl">USD - United States Dollar</span>
+        USD - United States Dollar
       </div>
     ),
   });
@@ -22,11 +22,11 @@ function App() {
     label: (
       <div className="flex items-center space-x-4">
         <img
-          src="https://flagcdn.com/uz.svg"
+          src="https://restcountries.com/v3.1/all/flags/uz.png"
           alt="Uzbekistan"
           className="w-12 h-8"
         />
-        <span className="text-2xl">UZS - Uzbekistani Som</span>
+        UZS - Uzbekistani Som
       </div>
     ),
   });
@@ -74,8 +74,8 @@ function App() {
 
         <div className="flex items-center space-x-8">
           <input
-            type="number"
-            placeholder="qiymat"
+            type="text"
+            placeholder="Qiymat"
             className="border border-gray-300 rounded-lg p-6 w-48 text-2xl text-center"
           />
 
